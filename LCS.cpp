@@ -26,7 +26,7 @@ int main()
 {
     string s1 = "AGGTAB", s2 = "GXTXAYB";
     int n = s1.length(), m = s2.length();
-    memset(dp,-1,sizeof(dp)); //TO SET EACH VALUE IN THE DP AS -1
+    memset(dp,-1,sizeof(dp)); 
     cout << "The longest common subsequence is " << lcs(s1, s2, n, m);
     return 0;
 }
